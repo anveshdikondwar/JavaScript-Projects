@@ -1,0 +1,17 @@
+
+
+:root{
+    --black:#000000;
+    --white:#ffffff;
+    --gray:#333333;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr, td{
+    border-top: 1ps solid var(--gray);
+    border-bottom: 1px solid var(--gray);
+}
