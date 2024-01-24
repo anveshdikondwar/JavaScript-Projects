@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+   
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+     height: 100vh;
+    
+
+}
+
+.toggle{
+    border: 1px solid black;
+    width: 120px;
+    height: 59px;
+    border-radius: 40px;
+    margin-top: 40px;
+    position:relative;
+    background-color:rgb(43, 40, 40);
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+
+ .left{
+    left:4px;
+    transition: left 0.9s ease;
+    
+}
+
+.right{
+  right:4px;
+  transition: left 0.9s ease;
+}
+
+.bg-black{
+    background-color: black;
+    transition: background-color 0.9s ease;
+}
+
+p{
+    font-size:42px;
+    margin: 0;
+    cursor: pointer;
+
+}
+.circle{
+    position: absolute;
+    border-radius: 50%;
+    width: 49px;
+    height: 55px;
+    top:2px;
+    cursor: pointer;
+    background-color: aliceblue;
+    transition: transform 0.5s ease, background-color 0.5s ease, left 0.5s ease, right 0.5s ease;
+    
+}
+
+h1{
+    position: absolute;
+    text-align: center;
+    margin-top: 2.3em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80px
+
+}
+
+.bg-title{
+    color: white;
+}
+
+
+
+#sun {
+    font-size: 42px;
+    animation: pulse 2s infinite;
+}
+
+#moon {
+    font-size: 42px;
+}
+
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
