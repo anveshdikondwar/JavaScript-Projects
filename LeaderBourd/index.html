@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main-container h1{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            gap: 10px;
+            font-weight: 100;
+            
+        }
+        .options{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            gap: 4px;
+            
+           
+            
+        }
+        .player-name{
+            display: grid;
+            text-transform: uppercase;
+            margin-left: 40px;
+            margin-top: 5px;
+            
+        }
+        .date{
+            margin-bottom: 5px;
+            margin-left: 40px;
+            color: #686868
+
+            
+        }
+        .country{
+            text-transform: uppercase;
+            margin-left: 80px;
+            
+        }
+        .score{
+            margin-left: 80px;
+            
+           
+        }
+        .delete{
+            all: unset;
+            border-radius: 50%;
+            background: lightgreen;
+            width: 60px;
+            height: 60px;
+            transition: all .5s ease;
+            margin-left: 70px;
+        }
+        .increase{
+            all: unset;
+            border-radius: 50%;
+            background: lightgreen;
+            width: 60px;
+            height: 60px;
+            transition: all .5s ease;
+            margin-left: 35px;
+        }
+        .decrease{
+            all: unset;
+            border-radius: 50%;
+            background: lightgreen;
+            width: 60px;
+            height: 60px;
+            transition: all .5s ease;
+            margin-left: 35px;
+        }
+        .add-btn{
+            
+            background-color: #90ee90;
+            padding: 0.7em 0;
+           transition: all .5s ease;
+           width: 10em;
+           
+        }
+        .main_error-prompter{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+        }
+        .display-result{
+            margin-left: 345px;
+            margin-right: 345px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <h1>LeaderBoard</h1>
+        <form class="options">
+            <input type="text" id="name" placeholder="First Name">
+            <input type="text" id="last" placeholder="Last Name">
+            
+            <input type="text" id="country" placeholder="Country">
+            <input type="text" id="score" placeholder="Player score">
+            <button class="add-btn">Add Player</button>
+        </form>
+        <br>
+        
+        <div class="display-result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
