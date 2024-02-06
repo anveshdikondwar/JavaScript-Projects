@@ -1,0 +1,17 @@
+*{
+    margin-top: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 50px;
+    width: 70%;
+    margin: auto;
+}
+
+canvas {
+    margin-top: 70px;
+    max-width: 90%;
+    height: auto;
+}
